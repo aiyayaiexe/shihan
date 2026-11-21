@@ -70,21 +70,21 @@ function draw() {
       noStroke();
       rect(x - 20, 10, 60, 300);
       
-      stroke(c3);
-      strokeWeight(20);
-      point(x + 10, 28);
+      noStroke();
+      fill(c3);
+      circle(x + 10, 28, 20);
       
-      stroke(c5);
-      strokeWeight(15);
-      point(x + 10, 25);
+      noStroke();
+      fill(c5);
+      circle(x + 10, 25, 15);
 
       fill(c5);
       noStroke();
       rect(x + 3, 12, 13, 10);
 
-      stroke(c6);
-      strokeWeight(13.5);
-      point(x + 9.5, 15);
+      noStroke();
+      fill(c6);
+      circle(x + 9.5, 15, 13.5);
 
     if (i < shihan.length) {
       push();
@@ -117,21 +117,21 @@ function draw() {
       noStroke();
       rect(x - 20, windowHeight/2 + 10, 60, 300);
       
-      stroke(c3);
-      strokeWeight(20);
-      point(x + 10, windowHeight/2 + 28);
+      noStroke();
+      fill(c3);
+      circle(x + 10, windowHeight/2 + 28, 20);
       
-      stroke(c5);
-      strokeWeight(15);
-      point(x + 10, windowHeight/2 + 25);
-
+      noStroke();
+      fill(c5);
+      circle(x + 10, windowHeight/2 + 25, 15);
+            
       fill(c5);
       noStroke();
       rect(x + 3, windowHeight/2 + 12, 13, 10);
 
-      stroke(c6);
-      strokeWeight(13.5);
-      point(x + 9.5,windowHeight/2 + 15);
+      noStroke();
+      fill(c6);
+      circle(x + 9.5, windowHeight/2 + 15, 13.5);
 
       if (i < shihan.length) {
       push();
